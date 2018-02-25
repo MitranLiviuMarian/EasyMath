@@ -22,4 +22,4 @@ krb5-kdc-ldap \
 ADD service /container/service
 RUN /container/tool/install-service
 ADD environment /container/environment/99-default
-EXPOSE 389 636
+EXPOSE 389 635
